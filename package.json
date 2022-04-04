@@ -2,7 +2,7 @@
   "name": "budget-app",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "assets/js/script.js",
   "scripts": {
     "webpack": "webpack --watch",
     "build": "webpack",
@@ -25,8 +25,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
-    "popper.js": "^1.16.0",
-    "sw-precache-webpack-plugin": "^0.11.5",
+    "popper.js": "^1.16.0",    
     "webpack-pwa-manifest": "^4.1.1"
   }
 }
