@@ -2,7 +2,7 @@
   "name": "budget-app",
   "version": "1.0.0",
   "description": "",
-  "main": "assets/js/script.js",
+  "main": "server.js",
   "scripts": {
     "webpack": "webpack --watch",
     "build": "webpack",
@@ -12,23 +12,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "@webpack-cli/serve": "^1.4.0",
+    "file-loader": "^6.2.0",
+    "webpack": "^5.37.1",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.3",
+    "webpack-pwa-manifest": "^4.3.0"
+  },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "compression": "^1.7.4",
-    "express": "^4.17.1",
     "image-webpack-loader": "^8.1.0",
-    "jquery": "^3.6.0",
-    "mongoose": "^5.5.15",
-    "morgan": "^1.9.1",
-    "popper.js": "^1.16.0",
-    "save": "^2.4.0"
-  },
-  "devDependencies": {
-    "file-loader": "^6.2.0",
-    "webpack": "^5.71.0",
-    "webpack-bundle-analyzer": "^4.5.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.4",
-    "webpack-pwa-manifest": "^4.3.0"
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
   }
 }
